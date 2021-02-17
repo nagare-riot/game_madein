@@ -169,10 +169,10 @@
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
         ctx.fillStyle = "white";
-        ctx.fillText("←A　（キーボード）  D→", start_width/2, start_select[c].y-150);
+        ctx.fillText("←A　（Wキーで決定）  D→", start_width/2, start_select[c].y-150);
         ctx.strokeStyle = "black";
         ctx.lineWidth = 2;
-        ctx.strokeText("←A　（キーボード）  D→", start_width/2, start_select[c].y-150);
+        ctx.strokeText("←A　（Wキーで決定）  D→", start_width/2, start_select[c].y-150);
 
         ctx.font = "bold 32px Hiragino Kaku Gothic Std";
         ctx.textAlign = "center";
